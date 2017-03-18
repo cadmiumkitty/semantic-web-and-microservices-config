@@ -1,5 +1,6 @@
 server:
   port: 50400
+  host: localhost  
 
 eureka:
   client:
