@@ -4,10 +4,10 @@ server:
 zuul:
   routes:
     ui:
-      path: /ui/**
+      path: /**
       serviceId: ui
       stripPrefix: true
-      
+
 eureka:
   client:
     serviceUrl:
